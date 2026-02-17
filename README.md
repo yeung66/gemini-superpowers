@@ -7,7 +7,18 @@ AI 驱动的软件开发工作流框架，为 Gemini CLI 提供可组合的 "ski
 ## 安装
 
 ```bash
-gemini skills install https://github.com/你的用户名/gemini-superpowers.git
+gemini skills install https://github.com/yeung66/gemini-superpowers.git
+```
+
+或手动安装：
+
+```bash
+# 克隆仓库
+git clone https://github.com/yeung66/gemini-superpowers.git
+
+# 复制到 Gemini skills 目录
+mkdir -p ~/.gemini/skills
+cp -r gemini-superpowers/skills/* ~/.gemini/skills/
 ```
 
 ## 核心工作流（7 步流程）
